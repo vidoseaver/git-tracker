@@ -1,0 +1,6 @@
+<% @commits.each do |commit| %>
+  <%= commit.short_sha %>
+  <%= commit.name %>
+  <%= commit.message %>
+  <%= commit.created %>
+<% end %>
