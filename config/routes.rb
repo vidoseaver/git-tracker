@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'commits/index'
+
+  root to: "commits#index"
 
   namespace :api do
     namespace :v1 do
