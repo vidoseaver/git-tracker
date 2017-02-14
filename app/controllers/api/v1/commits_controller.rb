@@ -1,6 +1,6 @@
 class Api::V1::CommitsController < ApplicationController
+
   def create
-    
     Commit.create(commits_params)
   end
 
